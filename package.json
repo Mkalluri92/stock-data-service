@@ -1,0 +1,25 @@
+{
+  "name": "stock-data-service",
+  "version": "1.0.0",
+  "description": "it fetches the real time stock data from yahoo and parses it and send the json to the client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mkalluri92/stock-data-service.git"
+  },
+  "author": "Mounika Kalluri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mkalluri92/stock-data-service/issues"
+  },
+  "homepage": "https://github.com/Mkalluri92/stock-data-service#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
